@@ -1,0 +1,692 @@
+{
+  "adminProfiles": [
+    {
+      "id": "admin-master-001",
+      "email": "admin@larrykinghotel.com",
+      "passwordHash": "bc3ee14549a085bafe48484430de52f4:956f40ff1413e9ced326543a799f98d745ea5f878a0fc3602d6eda3b215d3db9fa24d16c9b4536610ad94f958b41bbe8bef32b3f6273caa936e0002eb6647d3f",
+      "fullName": "General Manager",
+      "role": "superadmin",
+      "isActive": true,
+      "createdAt": "2026-10-17T07:25:49.605Z",
+      "updatedAt": "2026-10-17T07:25:49.605Z",
+      "lastLoginAt": "2026-10-17T07:39:06.175Z"
+    }
+  ],
+  "roomTypes": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "slug": "standard",
+      "name": "Standard Room",
+      "headline": "Cozy & Peaceful Accommodation with Essential Luxury",
+      "description": "Our Standard Rooms offer a cozy, tranquil retreat designed with essential comforts and thoughtful details for business and leisure travelers. Enjoy a restful night on premium linens, quiet climate control, high-definition television, high-speed Wi-Fi, and a pristine en-suite private bathroom with curated bath amenities.",
+      "baseRateNgn": 20000,
+      "maxAdults": 2,
+      "maxChildren": 1,
+      "maxOccupancy": 2,
+      "bedType": "Queen Bed",
+      "roomSizeSqm": 24,
+      "amenities": [
+        "Air Conditioning",
+        "Free High-Speed Wi-Fi",
+        "En-suite Bathroom with Hot Shower",
+        "Flat Screen Cable TV",
+        "Wardrobe & Luggage Rack",
+        "Dedicated Workspace Desk",
+        "Intercom House Phone",
+        "Complimentary Toiletries & Towels",
+        "24/7 Power Supply",
+        "Daily Housekeeping"
+      ],
+      "featuredImageUrl": "https://larrykinghotel.com/wp-content/plugins/vikbooking/site/resources/uploads/chatgpt_image_apr_26_2026_03_11_00_pm.png",
+      "galleryImages": [
+        "https://larrykinghotel.com/wp-content/plugins/vikbooking/site/resources/uploads/chatgpt_image_apr_26_2026_03_11_00_pm.png"
+      ],
+      "isActive": true,
+      "sortOrder": 1,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "slug": "deluxe",
+      "name": "Deluxe Room",
+      "headline": "Spacious, Refined Comfort with King Bed & Relaxation Area",
+      "description": "The Deluxe Room combines modern elegance with expansive space and superior fixtures. Featuring a plush King-size bed, luxury bedding, dedicated lounge seating area, executive desk, high-speed Wi-Fi, smart cable TV, and an expansive en-suite bathroom with complimentary premium bath products.",
+      "baseRateNgn": 25000,
+      "maxAdults": 2,
+      "maxChildren": 1,
+      "maxOccupancy": 3,
+      "bedType": "King Bed",
+      "roomSizeSqm": 32,
+      "amenities": [
+        "Plush King-Size Bed",
+        "Air Conditioning",
+        "Free High-Speed Wi-Fi",
+        "Lounge Seating Armchair",
+        "Flat Screen Smart TV",
+        "En-suite Bathroom with Modern Shower",
+        "Mini Refrigerator",
+        "Work Desk & Ergonomic Chair",
+        "Intercom House Phone",
+        "Complimentary Breakfast",
+        "24/7 Steady Power",
+        "Daily Housekeeping"
+      ],
+      "featuredImageUrl": "https://larrykinghotel.com/wp-content/plugins/vikbooking/site/resources/uploads/chatgpt_image_apr_20_2026_12_18_12_pm.png",
+      "galleryImages": [
+        "https://larrykinghotel.com/wp-content/plugins/vikbooking/site/resources/uploads/chatgpt_image_apr_20_2026_12_18_12_pm.png"
+      ],
+      "isActive": true,
+      "sortOrder": 2,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "slug": "executive",
+      "name": "Executive Room",
+      "headline": "Elevated Distinction, Executive Lounge Styling & Work Comfort",
+      "description": "Our Executive Room is meticulously tailored for corporate executives, VIPs, and discerning guests demanding heightened sophistication. Provides extra square footage, a bespoke King bed, executive lounge seating, high-speed wireless connectivity, complimentary morning beverage setup, spacious vanity, and quiet ambiance.",
+      "baseRateNgn": 30000,
+      "maxAdults": 2,
+      "maxChildren": 2,
+      "maxOccupancy": 3,
+      "bedType": "King Bed",
+      "roomSizeSqm": 38,
+      "amenities": [
+        "Master King Bed",
+        "Silent Climate Control Air Conditioning",
+        "Free Ultra-Fast Wi-Fi",
+        "Executive Lounge Area & Coffee Table",
+        "Smart TV with Premium Satellite Channels",
+        "Executive Work Station",
+        "Mini Bar / Refrigerator",
+        "Luxury Bathrobes & Slippers",
+        "Complimentary Breakfast",
+        "House Intercom Telephone",
+        "24/7 Guaranteed Power",
+        "Priority Room Service"
+      ],
+      "featuredImageUrl": "https://larrykinghotel.com/wp-content/plugins/vikbooking/site/resources/uploads/chatgpt_image_apr_20_2026_01_05_32_pm.png",
+      "galleryImages": [
+        "https://larrykinghotel.com/wp-content/plugins/vikbooking/site/resources/uploads/chatgpt_image_apr_20_2026_01_05_32_pm.png"
+      ],
+      "isActive": true,
+      "sortOrder": 3,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "slug": "suite",
+      "name": "Suite",
+      "headline": "The Epitome of Grand Luxury with Separate Living Room",
+      "description": "The Larry King Suite represents the pinnacle of hospitality excellence. Boasting a grand private master bedroom, an expansive separate living room and parlor with plush designer sofas, dual widescreen smart TVs, dining corner, powder room, opulent master bathroom, and personalized guest service.",
+      "baseRateNgn": 40000,
+      "maxAdults": 3,
+      "maxChildren": 2,
+      "maxOccupancy": 4,
+      "bedType": "Super King Bed + Parlor Sofa",
+      "roomSizeSqm": 52,
+      "amenities": [
+        "Separate Living Room & Master Bedroom",
+        "Super King Bed with Luxury Pillows",
+        "Dual Smart Flat Screen TVs",
+        "Designer Sofa & Dining Area",
+        "High-Speed Wi-Fi",
+        "Mini Fridge & Coffee Station",
+        "En-suite Luxury Bathroom with Premium Amenities",
+        "Complimentary Gourmet Breakfast",
+        "Pool View / Balcony",
+        "Intercom House Phone",
+        "24/7 Generator-Backed Power",
+        "VIP Concierge & Room Service"
+      ],
+      "featuredImageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-22-2026-10_15_31-PM.png",
+      "galleryImages": [
+        "https://larrykinghotel.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-22-2026-10_15_31-PM.png"
+      ],
+      "isActive": true,
+      "sortOrder": 4,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "8eca82ef-1ed5-40ac-9eab-19aeec72413c",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "roomNumber": "101",
+      "floor": 1,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "99acfde2-5ad7-4749-9c12-2c262d540ddf",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "roomNumber": "102",
+      "floor": 1,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "26eb5076-bbeb-4d4b-9040-e744b9625cc3",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "roomNumber": "103",
+      "floor": 1,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "ea5d7770-ff07-46c2-ba8f-6228aa445e34",
+      "roomTypeId": "22222222-2222-2222-2222-222222222222",
+      "roomNumber": "201",
+      "floor": 2,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "de97931e-3921-4e35-936c-b62958e0da23",
+      "roomTypeId": "22222222-2222-2222-2222-222222222222",
+      "roomNumber": "202",
+      "floor": 2,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "b3531113-f725-449e-a4f9-8061858c4dc1",
+      "roomTypeId": "22222222-2222-2222-2222-222222222222",
+      "roomNumber": "203",
+      "floor": 2,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "9e402827-be6c-4dd6-8a0f-34f7431850c4",
+      "roomTypeId": "33333333-3333-3333-3333-333333333333",
+      "roomNumber": "301",
+      "floor": 3,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "232335b1-3cfe-47d4-ae3f-4ce7f11381a7",
+      "roomTypeId": "33333333-3333-3333-3333-333333333333",
+      "roomNumber": "302",
+      "floor": 3,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "6c17819f-8717-4145-98f4-414255c74d9d",
+      "roomTypeId": "44444444-4444-4444-4444-444444444444",
+      "roomNumber": "401",
+      "floor": 4,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "f09b68e3-eff8-4334-a9c8-1c94e39d8958",
+      "roomTypeId": "44444444-4444-4444-4444-444444444444",
+      "roomNumber": "402",
+      "floor": 4,
+      "status": "available",
+      "notes": null,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00",
+      "updatedAt": "2026-10-17T07:52:37.571359+00:00"
+    }
+  ],
+  "guests": [
+    {
+      "id": "g-0414784e",
+      "firstName": "Test",
+      "lastName": "Engineer",
+      "email": "test@larrykinghotel.com",
+      "phone": "+2349071286050",
+      "createdAt": "2026-10-17T07:25:49.744Z"
+    },
+    {
+      "id": "g-c3e46229",
+      "firstName": "Folashade",
+      "lastName": "Adeleke",
+      "email": "folashade@example.com",
+      "phone": "+2349071286050",
+      "country": "Nigeria",
+      "createdAt": "2026-10-17T07:26:56.188Z"
+    },
+    {
+      "id": "g-4e60db2b",
+      "firstName": "Larry",
+      "lastName": "Hotel",
+      "email": "larrykinghotel001@gmail.com",
+      "phone": "08111479802",
+      "country": "Nigeria",
+      "createdAt": "2026-10-17T07:37:35.490Z"
+    },
+    {
+      "id": "g-0367cb8f",
+      "firstName": "Test",
+      "lastName": "Engineer",
+      "email": "test-1792224274669@larrykinghotel.com",
+      "phone": "+2349071286050",
+      "createdAt": "2026-10-17T08:04:34.669Z"
+    },
+    {
+      "id": "g-f7caf1ad",
+      "firstName": "Test",
+      "lastName": "Engineer",
+      "email": "test-1792224441948@larrykinghotel.com",
+      "phone": "+2349071286050",
+      "createdAt": "2026-10-17T08:07:21.949Z"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "d3ebe812-c2d6-43c2-8ffe-01f6c2959f71",
+      "bookingReference": "LKH-DLQNJJ",
+      "guestId": "g-0414784e",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "assignedRoomId": "r-101",
+      "checkInDate": "2026-11-10",
+      "checkOutDate": "2026-11-12",
+      "numberOfNights": 2,
+      "numberOfRooms": 1,
+      "adults": 2,
+      "children": 0,
+      "nightlyRateSnapshot": 20000,
+      "subtotalNgn": 40000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 40000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-17T07:25:49.744Z",
+      "updatedAt": "2026-10-17T07:25:49.744Z"
+    },
+    {
+      "id": "bf5cb8a8-25a2-4f16-b272-fa9279222bb3",
+      "bookingReference": "LKH-2WT6KB",
+      "guestId": "g-0414784e",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "assignedRoomId": "r-102",
+      "checkInDate": "2026-11-10",
+      "checkOutDate": "2026-11-12",
+      "numberOfNights": 2,
+      "numberOfRooms": 1,
+      "adults": 2,
+      "children": 0,
+      "nightlyRateSnapshot": 20000,
+      "subtotalNgn": 40000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 40000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-17T07:26:38.315Z",
+      "updatedAt": "2026-10-17T07:26:38.315Z"
+    },
+    {
+      "id": "a7e55c8c-3327-4517-827b-1f2d78fc57ab",
+      "bookingReference": "LKH-9536DA",
+      "guestId": "g-c3e46229",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "assignedRoomId": "r-101",
+      "checkInDate": "2026-11-20",
+      "checkOutDate": "2026-11-22",
+      "numberOfNights": 2,
+      "numberOfRooms": 1,
+      "adults": 2,
+      "children": 0,
+      "nightlyRateSnapshot": 20000,
+      "subtotalNgn": 40000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 40000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-17T07:26:56.188Z",
+      "updatedAt": "2026-10-17T07:26:56.188Z"
+    },
+    {
+      "id": "821e086c-ad81-45c3-ae41-32555dff6c9d",
+      "bookingReference": "LKH-Y8F4X2",
+      "guestId": "g-0414784e",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "assignedRoomId": "r-103",
+      "checkInDate": "2026-11-10",
+      "checkOutDate": "2026-11-12",
+      "numberOfNights": 2,
+      "numberOfRooms": 1,
+      "adults": 2,
+      "children": 0,
+      "nightlyRateSnapshot": 20000,
+      "subtotalNgn": 40000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 40000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-17T07:27:42.078Z",
+      "updatedAt": "2026-10-17T07:27:42.078Z"
+    },
+    {
+      "id": "0745ea9d-e8c8-4cf5-b436-582e0272bede",
+      "bookingReference": "LKH-ZEZ9TK",
+      "guestId": "g-4e60db2b",
+      "roomTypeId": "22222222-2222-2222-2222-222222222222",
+      "assignedRoomId": "r-201",
+      "checkInDate": "2026-10-17",
+      "checkOutDate": "2026-10-20",
+      "numberOfNights": 3,
+      "numberOfRooms": 1,
+      "adults": 1,
+      "children": 0,
+      "nightlyRateSnapshot": 25000,
+      "subtotalNgn": 75000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 75000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "estimatedArrivalTime": "14:00",
+      "createdAt": "2026-10-17T07:37:35.490Z",
+      "updatedAt": "2026-10-17T07:37:35.490Z"
+    },
+    {
+      "id": "abce9f3e-c9cd-4905-8460-3f7819dbc067",
+      "bookingReference": "LKH-NR3SYJ",
+      "guestId": "g-0367cb8f",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "assignedRoomId": "8eca82ef-1ed5-40ac-9eab-19aeec72413c",
+      "checkInDate": "2037-05-10",
+      "checkOutDate": "2037-05-12",
+      "numberOfNights": 2,
+      "numberOfRooms": 1,
+      "adults": 2,
+      "children": 0,
+      "nightlyRateSnapshot": 20000,
+      "subtotalNgn": 40000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 40000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-17T08:04:34.669Z",
+      "updatedAt": "2026-10-17T08:04:34.669Z"
+    },
+    {
+      "id": "59a10d56-8a83-4a56-99aa-8c4c57600f42",
+      "bookingReference": "LKH-HWPBQ6",
+      "guestId": "g-f7caf1ad",
+      "roomTypeId": "11111111-1111-1111-1111-111111111111",
+      "assignedRoomId": "8eca82ef-1ed5-40ac-9eab-19aeec72413c",
+      "checkInDate": "2034-05-10",
+      "checkOutDate": "2034-05-12",
+      "numberOfNights": 2,
+      "numberOfRooms": 1,
+      "adults": 2,
+      "children": 0,
+      "nightlyRateSnapshot": 20000,
+      "subtotalNgn": 40000,
+      "taxesFeesNgn": 0,
+      "totalAmountNgn": 40000,
+      "depositAmountNgn": 0,
+      "paymentMode": "pay_at_hotel",
+      "reservationStatus": "confirmed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-17T08:07:21.949Z",
+      "updatedAt": "2026-10-17T08:07:21.949Z"
+    }
+  ],
+  "payments": [],
+  "blockedDates": [],
+  "testimonials": [
+    {
+      "id": "58b8a766-2847-4b4a-9b95-f24d3bed1e71",
+      "guestName": "Engr. Babatunde Adeyemi",
+      "guestLocation": "Lagos Island, Nigeria",
+      "rating": 5,
+      "comment": "Larry King Hotel & Suite surprised me with its serene atmosphere in Imota! The rooms are immaculate, the 24/7 power supply is truly steady with no interruptions, and the staff are warmly attentive. Highly recommended for weekend getaways.",
+      "stayDate": "Stayed in Executive Room",
+      "isApproved": true,
+      "sortOrder": 1,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "420c44b3-ee32-4761-9d33-ddb051ec62b3",
+      "guestName": "Dr. Folashade Adeleke",
+      "guestLocation": "Ikorodu, Lagos",
+      "rating": 5,
+      "comment": "Hosted our corporate retreat here and booked several rooms. The swimming pool area is beautiful and clean, the event hall had plenty of space, and security was top-notch throughout our stay.",
+      "stayDate": "Stayed in Deluxe Room",
+      "isApproved": true,
+      "sortOrder": 2,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00"
+    },
+    {
+      "id": "f139567a-c54e-48f8-9f58-08610a4b793c",
+      "guestName": "Mr. Kenneth Okafor",
+      "guestLocation": "Abuja, Nigeria",
+      "rating": 5,
+      "comment": "The Suite gave me the feel of a home away from home. The separate parlor allowed me to hold private meetings comfortably. Excellent bed and fast Wi-Fi.",
+      "stayDate": "Stayed in Suite",
+      "isApproved": true,
+      "sortOrder": 3,
+      "createdAt": "2026-10-17T07:52:37.571359+00:00"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "97ebc302-f310-4cea-b807-72b9a8d77835",
+      "title": "Hotel Front Entrance & Premises",
+      "category": "Exterior & Grounds",
+      "imageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-02-07-at-17.58.52.jpeg",
+      "altText": "Larry King Hotel and Suite front entrance in Imota Ikorodu",
+      "sortOrder": 1
+    },
+    {
+      "id": "d5c8d2ca-2163-48e5-85cd-25c69b0aa42f",
+      "title": "Sparkling Outdoor Swimming Pool",
+      "category": "Swimming Pool",
+      "imageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/WhatsApp-Image-2025-12-25-at-09.39.07.jpeg",
+      "altText": "Swimming pool and relaxation terrace at Larry King Hotel",
+      "sortOrder": 2
+    },
+    {
+      "id": "edb001b9-c951-4ff4-8f80-375be472aa9c",
+      "title": "Paved Compound & Secure Parking",
+      "category": "Exterior & Grounds",
+      "imageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/InShot_20251225_100527023.jpg",
+      "altText": "Secure fenced hotel compound with ample guest parking",
+      "sortOrder": 3
+    },
+    {
+      "id": "0057fcb1-5d37-4bdd-86a0-04457f536e56",
+      "title": "VIP Lounge & Evening Bar",
+      "category": "Events & Lounge",
+      "imageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/WhatsApp-Image-2025-07-09-at-11.48.45_ee6c5d2f.jpg",
+      "altText": "Air-conditioned lounge counter and bar",
+      "sortOrder": 4
+    },
+    {
+      "id": "c89a912a-8640-4e1e-9593-ad4556b2f04a",
+      "title": "Hotel Night Ambience",
+      "category": "Exterior & Grounds",
+      "imageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/WhatsApp-Image-2025-07-09-at-23.08.46_821f1350.jpg",
+      "altText": "Exterior night illuminations and peaceful grounds",
+      "sortOrder": 5
+    },
+    {
+      "id": "1bc28967-9845-4994-9e81-1950f4d8e248",
+      "title": "500-Seater Banquet & Event Hall",
+      "category": "Events & Lounge",
+      "imageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/download-2.jpeg",
+      "altText": "Grand multi-purpose event hall for wedding receptions and seminars",
+      "sortOrder": 6
+    }
+  ],
+  "settings": {
+    "general": {
+      "hotelName": "Larry King Hotel And Suite",
+      "displayName": "Larry King Hotel & Suite",
+      "tagline": "Where Comfort Meets Exceptional Hospitality",
+      "phone": "+234-9071286050",
+      "whatsapp": "2349071286050",
+      "bookingEmail": "Booking@larrykinghotel.com",
+      "infoEmail": "Info@larrykinghotel.com",
+      "address": "11 Babatunde Labiyi Avenue, off Olarewaju Shogbein Avenue, Agundungbu, Imota, Ikorodu, Lagos, Nigeria",
+      "currency": "NGN",
+      "currencySymbol": "₦"
+    },
+    "policies": {
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours prior to check-in. Non-refundable within 24 hours of arrival.",
+      "taxRatePercent": 0,
+      "serviceFeePercent": 0,
+      "minimumStayNights": 1
+    },
+    "payments": {
+      "payAtHotelEnabled": true,
+      "bankTransferEnabled": true,
+      "paystackEnabled": false,
+      "bankName": "Guaranty Trust Bank (GTB)",
+      "accountName": "Larry King Hotel & Suite Ltd",
+      "accountNumber": "0123456789"
+    }
+  },
+  "auditLogs": [
+    {
+      "adminEmail": "admin@larrykinghotel.com",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "SETTINGS",
+      "details": {
+        "general": {
+          "hotelName": "Larry King Hotel And Suite",
+          "displayName": "Larry King Hotel & Suite",
+          "tagline": "Where Comfort Meets Exceptional Hospitality",
+          "phone": "+234-9071286050",
+          "whatsapp": "2349071286050",
+          "bookingEmail": "Booking@larrykinghotel.com",
+          "infoEmail": "Info@larrykinghotel.com",
+          "address": "11 Babatunde Labiyi Avenue, off Olarewaju Shogbein Avenue, Agundungbu, Imota, Ikorodu, Lagos, Nigeria",
+          "currency": "NGN",
+          "currencySymbol": "₦"
+        },
+        "policies": {
+          "checkInTime": "14:00",
+          "checkOutTime": "12:00",
+          "cancellationPolicy": "Free cancellation up to 24 hours prior to check-in. Non-refundable within 24 hours of arrival.",
+          "taxRatePercent": 0,
+          "serviceFeePercent": 0,
+          "minimumStayNights": 1
+        },
+        "payments": {
+          "payAtHotelEnabled": true,
+          "bankTransferEnabled": true,
+          "paystackEnabled": false,
+          "bankName": "Guaranty Trust Bank (GTB)",
+          "accountName": "Larry King Hotel & Suite Ltd",
+          "accountNumber": "0123456789"
+        }
+      },
+      "id": "fc1da44c-2f03-47bc-95dd-fc05b734fef6",
+      "createdAt": "2026-10-17T07:40:21.896Z"
+    },
+    {
+      "adminEmail": "admin@larrykinghotel.com",
+      "action": "ADMIN_LOGIN",
+      "entityType": "AUTH",
+      "entityId": "admin-master-001",
+      "ipAddress": "127.0.0.1",
+      "id": "c9d3ded5-ecb6-4dd0-8234-10b2ab1d3224",
+      "createdAt": "2026-10-17T07:39:06.176Z"
+    },
+    {
+      "adminEmail": "admin@larrykinghotel.com",
+      "action": "UPDATE_ROOM_TYPE",
+      "entityType": "ROOM_TYPE",
+      "entityId": "44444444-4444-4444-4444-444444444444",
+      "details": {
+        "id": "44444444-4444-4444-4444-444444444444",
+        "slug": "suite",
+        "name": "Suite",
+        "headline": "The Epitome of Grand Luxury with Separate Living Room",
+        "description": "The Larry King Suite represents the pinnacle of hospitality excellence. Boasting a grand private master bedroom, an expansive separate living room and parlor with plush designer sofas, dual widescreen smart TVs, dining corner, powder room, opulent master bathroom, and personalized guest service.",
+        "baseRateNgn": 40000,
+        "maxAdults": 3,
+        "maxChildren": 2,
+        "maxOccupancy": 4,
+        "bedType": "Super King Bed + Parlor Sofa",
+        "roomSizeSqm": 52,
+        "amenities": [
+          "Separate Living Room & Master Bedroom",
+          "Super King Bed with Luxury Pillows",
+          "Dual Smart Flat Screen TVs",
+          "Designer Sofa & Dining Area",
+          "High-Speed Wi-Fi",
+          "Mini Fridge & Coffee Station",
+          "En-suite Luxury Bathroom with Premium Amenities",
+          "Complimentary Gourmet Breakfast",
+          "Pool View / Balcony",
+          "Intercom House Phone",
+          "24/7 Generator-Backed Power",
+          "VIP Concierge & Room Service"
+        ],
+        "featuredImageUrl": "https://larrykinghotel.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-22-2026-10_15_31-PM.png",
+        "galleryImages": [
+          "https://larrykinghotel.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-22-2026-10_15_31-PM.png",
+          "https://larrykinghotel.com/wp-content/uploads/2026/04/InShot_20251225_100527023.jpg"
+        ],
+        "isActive": true,
+        "sortOrder": 4,
+        "createdAt": "2026-10-17T07:25:49.539Z",
+        "updatedAt": "2026-10-17T07:25:49.539Z"
+      },
+      "id": "acca2dc6-f9b7-459a-a216-2b5103b8ff61",
+      "createdAt": "2026-10-17T07:31:36.210Z"
+    },
+    {
+      "adminEmail": "admin@larrykinghotel.com",
+      "action": "ADMIN_LOGIN",
+      "entityType": "AUTH",
+      "entityId": "admin-master-001",
+      "ipAddress": "127.0.0.1",
+      "id": "69587da9-beb4-4a80-848a-054efeecf94b",
+      "createdAt": "2026-10-17T07:30:52.574Z"
+    },
+    {
+      "adminEmail": "admin@larrykinghotel.com",
+      "action": "ADMIN_LOGIN",
+      "entityType": "AUTH",
+      "entityId": "admin-master-001",
+      "ipAddress": "127.0.0.1",
+      "id": "91e57636-3529-4482-bcc2-dd69003c7b37",
+      "createdAt": "2026-10-17T07:26:52.426Z"
+    }
+  ]
+}

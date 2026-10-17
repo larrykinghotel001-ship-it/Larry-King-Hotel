@@ -1,0 +1,6 @@
+{
+  "name": "Larry King Hotel & Suite",
+  "description": "Official booking portal, room reservation engine, and administration platform for Larry King Hotel & Suite in Imota, Ikorodu, Lagos, Nigeria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
